@@ -54,7 +54,7 @@ def reset_wifi():
 # -----------------------------
 # Funzione helper per scurire un colore (fattore da 0.0 a 1.0)
 # -----------------------------
-def darker(color, factor=0.3):
+def darker(color, factor=0.2):
     r = int(((color >> 16) & 0xFF) * factor)
     g = int(((color >> 8)  & 0xFF) * factor)
     b = int(( color       & 0xFF) * factor)
@@ -168,7 +168,7 @@ high_color    = 0x006400
 low_color     = 0x8B0000
 
 # Fattore di scurimento (0.0 = nero, 1.0 = colore originale)
-DARK_FACTOR = 0.2
+DARK_FACTOR = 0.1
 
 failed_attempts      = 0
 max_failed_attempts  = 3
