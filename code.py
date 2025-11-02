@@ -146,7 +146,7 @@ requests = adafruit_requests.Session(pool, ssl_context)
 # -----------------------------
 # Sincronizzazione orologio con NTP (Zurigo CEST, UTC+2)
 # -----------------------------
-ntp = adafruit_ntp.NTP(pool, tz_offset=2, cache_seconds=3600)
+ntp = adafruit_ntp.NTP(pool, tz_offset=1, cache_seconds=3600)
 rtc.RTC().datetime = ntp.datetime
 
 BYBIT_URL = "https://api.bybit.com/v5/market/tickers?category=linear&symbol=BTCUSDT"
