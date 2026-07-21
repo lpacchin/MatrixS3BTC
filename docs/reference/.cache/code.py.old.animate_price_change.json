@@ -1,0 +1,11 @@
+{
+  "body_hash": "5e6c4bdd2a570b53",
+  "llm": {
+    "purpose": "Anima il passaggio da old_price a new_price su un display matrixportal, mostrando una sequenza di cifre che scorrono per un effetto di aggiornamento graduale.",
+    "input_shape": "old_price: str o None (None diventa ''); new_price: str (es. '1234'); color: accettato da matrixportal.set_text_color. Entrambi i prezzi vengono allineati con padding a sinistra in base alla lunghezza massima.",
+    "output_shape": "Nessun valore di ritorno (None). L'animazione viene eseguita a blocchi; eventuali eccezioni propagano da pad_left o da metodi di matrixportal.",
+    "gotcha": "La funzione richiede la presenza di variabili globali matrixportal (oggetto display) e price_index (indice) precedentemente impostate. Il padding sinistro usa pad_left esterno; caratteri non numerici in new_price non partecipano all'animazione. Il parametro old_price può essere None, gestito come stringa vuota.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:22:33.182423+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "5be4745640f4b36b",
+  "llm": {
+    "purpose": "Restituisce la pagina home HTML che mostra lo stato attuale del display (acceso/spento) e offre i pulsanti per accenderlo/spegnelo.",
+    "input_shape": "request: oggetto Request di Flask (non utilizzato per estrarre dati, solo inoltrato al costruttore della Response).",
+    "output_shape": "Response con content-type text/html e corpo contenente la pagina.",
+    "gotcha": "Richiede che la variabile globale `display_enabled` sia definita nel modulo; altrimenti solleva NameError.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:20:43.335619+00:00"
+}

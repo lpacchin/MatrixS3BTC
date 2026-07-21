@@ -1,0 +1,11 @@
+{
+  "body_hash": "023dcd24edad4aac",
+  "llm": {
+    "purpose": "Tenta la connessione WiFi con SSID e password globali, entro un timeout di 20 secondi, restituendo esito booleano.",
+    "input_shape": "nessun parametro",
+    "output_shape": "True se la connessione è riuscita, False in caso di timeout o errore durante il tentativo.",
+    "gotcha": "Dipende dalle variabili globali WIFI_SSID, WIFI_PASSWORD e dal modulo wifi; blocca l'esecuzione per l'intero timeout.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:17:27.984912+00:00"
+}

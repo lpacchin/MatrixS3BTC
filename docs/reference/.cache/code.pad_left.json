@@ -1,0 +1,11 @@
+{
+  "body_hash": "7eed86139b280e5c",
+  "llm": {
+    "purpose": "Assicura che una stringa abbia una lunghezza minima, aggiungendo spazi a sinistra se necessario.",
+    "input_shape": "text: str (qualsiasi stringa); width: int (lunghezza minima desiderata).",
+    "output_shape": "str: il testo originale se len(text) >= width, altrimenti una nuova stringa con spazi anteposti per raggiungere width.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:18:22.958094+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "bd92d0ebc0f8cf45",
+  "llm": {
+    "purpose": "Formatta un valore numerico in una stringa con suffisso '$' per la visualizzazione (es. prezzi).",
+    "input_shape": "value: qualsiasi valore convertibile a int tramite int() (stringa di cifre, intero, float che verrà troncato).",
+    "output_shape": "Restituisce una stringa nella forma '<intero> $'. Solleva ValueError se value non è convertibile a int.",
+    "gotcha": "La conversione int() tronca verso zero, quindi 2.9 -> '2 $'.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:21:52.662421+00:00"
+}

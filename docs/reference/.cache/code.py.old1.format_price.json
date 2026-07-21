@@ -1,0 +1,11 @@
+{
+  "body_hash": "dd239244202ceb65",
+  "llm": {
+    "purpose": "Converte un valore in intero e lo formatta con apostrofo come separatore delle migliaia e simbolo del dollaro finale.",
+    "input_shape": "value: qualsiasi tipo convertibile a int (str, float, int). ValueError se non convertibile.",
+    "output_shape": "Stringa formattata (es. \"1'234$\"). Non solleva eccezioni dopo la conversione.",
+    "gotcha": "La conversione a int tronca la parte decimale, non arrotonda. L'apostrofo è usato come separatore delle migliaia.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:19:30.758157+00:00"
+}

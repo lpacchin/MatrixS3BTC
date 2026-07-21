@@ -1,0 +1,11 @@
+{
+  "body_hash": "a0282babf3f13d42",
+  "llm": {
+    "purpose": "Ripristina la connessione WiFi disabilitando e riabilitando il modulo radio e richiamando connect_wifi() per riconnettersi.",
+    "input_shape": "nessun parametro",
+    "output_shape": "Restituisce il risultato di connect_wifi() (tipicamente un booleano); in caso di eccezione restituisce False.",
+    "gotcha": "Richiede che wifi.radio e connect_wifi siano accessibili nello scope; eventuali errori sono catturati e restituiti come False senza indicazione del problema.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:21:28.138936+00:00"
+}

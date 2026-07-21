@@ -1,0 +1,11 @@
+{
+  "body_hash": "5e6c4bdd2a570b53",
+  "llm": {
+    "purpose": "Anima la transizione visiva tra due prezzi su un display MatrixPortal, mostrando un effetto di rullo per le cifre.",
+    "input_shape": "old_price: str | None (prezzo attuale, None diventa \"\"); new_price: str (nuovo prezzo); color: qualsiasi valore di colore accettato da matrixportal.",
+    "output_shape": "Nessun valore di ritorno (None). Lancia eccezioni solo per errori interni (es. time.sleep o connessione display).",
+    "gotcha": "Se old_price è None, dopo pad_left si ottiene una stringa di spazi, causando un effetto di 'apparizione' dal nulla; solo i caratteri digit di new_price vengono animati, i non-numerici appaiono immediatamente.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:20:21.142968+00:00"
+}

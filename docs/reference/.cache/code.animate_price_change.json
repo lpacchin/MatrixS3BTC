@@ -1,0 +1,11 @@
+{
+  "body_hash": "5e6c4bdd2a570b53",
+  "llm": {
+    "purpose": "Mostra un'animazione progressiva sul display della matrice che trasforma una stringa di prezzo da vecchio a nuovo colore, simulando un cambio di cifra passo-passo.",
+    "input_shape": "old_price: str o None (convertito a '' se None); new_price: str (nuovo prezzo); color: valore colore accettato da matrixportal.set_text_color.",
+    "output_shape": "Nessun valore di ritorno (None). Modifica direttamente il display via matrixportal e dorme per la durata.",
+    "gotcha": "La funzione dipende da variabili globali `matrixportal` e `price_index`, non definite al suo interno.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:18:44.731332+00:00"
+}

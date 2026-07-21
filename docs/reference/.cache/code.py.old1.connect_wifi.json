@@ -1,0 +1,11 @@
+{
+  "body_hash": "023dcd24edad4aac",
+  "llm": {
+    "purpose": "Gestisce il tentativo di connessione WiFi con timeout, gestendo errori e restituendo esito.",
+    "input_shape": "nessun parametro",
+    "output_shape": "True se connesso, False in caso di timeout o fallimenti; stampa messaggi di progresso/errore.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:18:53.876822+00:00"
+}

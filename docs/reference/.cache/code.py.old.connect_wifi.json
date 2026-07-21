@@ -1,0 +1,11 @@
+{
+  "body_hash": "023dcd24edad4aac",
+  "llm": {
+    "purpose": "Tenta di connettersi a una rete WiFi con SSID e password globali, ritentando fino a 20 secondi. Restituisce True se connesso, False altrimenti.",
+    "input_shape": "nessun parametro",
+    "output_shape": "True in caso di connessione riuscita, False se si esaurisce il timeout. Le eccezioni di connessione sono catturate e stampate, non propagate.",
+    "gotcha": "Utilizza variabili globali WIFI_SSID e WIFI_PASSWORD non passate come parametri; modifica wifi.radio.enabled come side-effect; stampa su stdout; non solleva eccezioni.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:21:15.724785+00:00"
+}

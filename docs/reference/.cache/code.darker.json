@@ -1,0 +1,11 @@
+{
+  "body_hash": "0fed8b3e1ae0ce23",
+  "llm": {
+    "purpose": "Scurisce un colore RGB moltiplicando ciascun componente R, G, B per un fattore riduttivo, restituendo il nuovo colore impacchettato.",
+    "input_shape": "color: intero non negativo che rappresenta un colore a 24-bit (8 bit per canale); factor: float, tipicamente in [0,1] per scurire",
+    "output_shape": "nuovo intero a 24-bit con i canali scalati e troncati (stessa modalità di impacchettamento)",
+    "gotcha": "Il troncamento intero dopo la moltiplicazione può causare perdita di precisione; se factor > 1 i valori dei canali superano 255 e l'assemblaggio finale può generare componenti spurie oltre i 24 bit, producendo un risultato imprevedibile.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:17:49.315551+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "bd92d0ebc0f8cf45",
+  "llm": {
+    "purpose": "Formatta un valore numerico in una stringa con il simbolo del dollaro, convertendolo in intero.",
+    "input_shape": "value: qualsiasi tipo convertibile a int (es. int, float, stringa numerica).",
+    "output_shape": "Restituisce una stringa nel formato '<intero> $'. Lancia ValueError o TypeError se la conversione a int fallisce.",
+    "gotcha": "La conversione a int tronca la parte decimale senza arrotondamento. La stringa restituita contiene uno spazio prima di '$'.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:18:12.985746+00:00"
+}

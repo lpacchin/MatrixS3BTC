@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "MatrixS3BTC",
+    "version": "b40b9be",
+    "description": "Documento OpenAPI generato staticamente da `funcref.openapi` sull'inventario AST degli endpoint (ACTIVE-only). Campi meccanici deterministici; prosa dalla cache LLM di `funcref.generate`."
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Restituisce la pagina home HTML che mostra lo stato attuale del display (acceso/spento) e offre i pulsanti per accenderlo/spegnelo.",
+        "operationId": "code.py.old1.home",
+        "description": "Restituisce la pagina home HTML che mostra lo stato attuale del display (acceso/spento) e offre i pulsanti per accenderlo/spegnelo.\n\n**Input**: request: oggetto Request di Flask (non utilizzato per estrarre dati, solo inoltrato al costruttore della Response).\n\n**Output**: Response con content-type text/html e corpo contenente la pagina.",
+        "responses": {
+          "200": {
+            "description": "Response con content-type text/html e corpo contenente la pagina."
+          }
+        },
+        "security": []
+      }
+    },
+    "/toggle_display": {
+      "get": {
+        "summary": "Gestisce il toggle del display via parametro query 'state' (on/off) e restituisce una pagina HTML di conferma con redirect automatico.",
+        "operationId": "code.py.old1.toggle_display",
+        "description": "Gestisce il toggle del display via parametro query 'state' (on/off) e restituisce una pagina HTML di conferma con redirect automatico.\n\n**Input**: Richiede un oggetto Request con parametro query 'state' (valori attesi: 'on' o 'off').\n\n**Output**: Restituisce sempre un oggetto Response con contenuto HTML (messaggio di conferma o errore). In caso di eccezione catturata, il body contiene il messaggio di errore.",
+        "responses": {
+          "200": {
+            "description": "Restituisce sempre un oggetto Response con contenuto HTML (messaggio di conferma o errore). In caso di eccezione catturata, il body contiene il messaggio di errore."
+          }
+        },
+        "security": []
+      }
+    }
+  }
+}

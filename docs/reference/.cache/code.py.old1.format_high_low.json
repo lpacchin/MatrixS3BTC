@@ -1,0 +1,11 @@
+{
+  "body_hash": "bd92d0ebc0f8cf45",
+  "llm": {
+    "purpose": "Converte un valore in intero e restituisce una stringa formattata con il simbolo $.",
+    "input_shape": "value: qualsiasi tipo accettato da int() (es. str, float).",
+    "output_shape": "Restituisce una stringa nel formato '<valore> $'. Può sollevare ValueError se il valore non è convertibile.",
+    "gotcha": "int() tronca i decimali, non arrotonda. Lo spazio prima del $ è incluso.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:19:41.638376+00:00"
+}

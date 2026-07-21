@@ -1,0 +1,11 @@
+{
+  "body_hash": "a0282babf3f13d42",
+  "llm": {
+    "purpose": "Resetta la connessione WiFi disabilitando e riabilitando la radio, poi tenta la riconnessione tramite la funzione connect_wifi().",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Ritorna il valore restituito da connect_wifi() (presumibilmente un booleano) oppure False in caso di eccezione durante il reset.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:17:36.615259+00:00"
+}

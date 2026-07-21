@@ -1,0 +1,11 @@
+{
+  "body_hash": "7eed86139b280e5c",
+  "llm": {
+    "purpose": "Aggiunge spazi a sinistra a text per raggiungere una lunghezza minima width, se necessario.",
+    "input_shape": "text: stringa; width: intero >= 0",
+    "output_shape": "Stringa con spazi preposti per raggiungere almeno width caratteri. Se text già soddisfa, invariato.",
+    "gotcha": "width negativo causa errore nella moltiplicazione di stringa; text deve essere stringa per concatenazione.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:19:55.478599+00:00"
+}

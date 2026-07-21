@@ -1,0 +1,11 @@
+{
+  "body_hash": "7eed86139b280e5c",
+  "llm": {
+    "purpose": "Allinea a destra una stringa aggiungendo spazi a sinistra fino alla larghezza specificata.",
+    "input_shape": "text: stringa; width: intero (lunghezza finale desiderata)",
+    "output_shape": "Stringa: text se len(text) >= width, altrimenti text preceduta da spazi per raggiungere width.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:22:08.760868+00:00"
+}

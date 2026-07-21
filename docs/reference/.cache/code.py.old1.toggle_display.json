@@ -1,0 +1,11 @@
+{
+  "body_hash": "333ff4f9f9edc538",
+  "llm": {
+    "purpose": "Gestisce il toggle del display via parametro query 'state' (on/off) e restituisce una pagina HTML di conferma con redirect automatico.",
+    "input_shape": "Richiede un oggetto Request con parametro query 'state' (valori attesi: 'on' o 'off').",
+    "output_shape": "Restituisce sempre un oggetto Response con contenuto HTML (messaggio di conferma o errore). In caso di eccezione catturata, il body contiene il messaggio di errore.",
+    "gotcha": "La variabile globale display_enabled è dichiarata ma mai letta; lo stato effettivo è gestito esternamente da set_display_state().",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:21:00.912343+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "evidence_hash": "d22d3fdd3c743532",
+  "llm": {
+    "what": "Sistema di visualizzazione prezzi su matrice LED via Flask: anima il passaggio tra vecchio e nuovo valore, formatta cifre con simbolo dollaro, gestisce la connettività WiFi del dispositivo e offre funzioni di manipolazione cromatica per il display.",
+    "areas": [
+      {
+        "name": "Animazione e formattazione prezzi",
+        "description": "Mostra variazioni progressive del prezzo sul display a matrice, con formattazione in dollari (simbolo e separatore delle migliaia).",
+        "modules": [
+          "code"
+        ]
+      },
+      {
+        "name": "Connessione WiFi",
+        "description": "Tenta la connessione alla rete WiFi con credenziali predefinite, restituendo l'esito entro un timeout di 20 secondi.",
+        "modules": [
+          "code"
+        ]
+      },
+      {
+        "name": "Manipolazione colori",
+        "description": "Scurisce un colore RGB applicando un fattore di riduzione uniforme alle componenti.",
+        "modules": [
+          "code"
+        ]
+      }
+    ]
+  },
+  "generated_at": "2026-07-21T18:22:59.361072+00:00"
+}

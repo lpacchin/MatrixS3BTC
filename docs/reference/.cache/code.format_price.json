@@ -1,0 +1,11 @@
+{
+  "body_hash": "dd239244202ceb65",
+  "llm": {
+    "purpose": "Converte un valore in intero e lo formatta con separatore delle migliaia apostrofo e suffisso dollaro, utile per visualizzare prezzi arrotondati.",
+    "input_shape": "value: qualsiasi input convertibile a int (es. stringa numerica, int, float senza parte decimale).",
+    "output_shape": "Stringa nel formato `1'234$`. Può sollevare ValueError se la conversione a int fallisce.",
+    "gotcha": "La formattazione sostituisce le virgole con apostrofi; non adatta il separatore alla localizzazione dell'utente.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:18:01.399048+00:00"
+}

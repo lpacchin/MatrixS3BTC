@@ -1,0 +1,11 @@
+{
+  "body_hash": "efb5ddf770714d74",
+  "llm": {
+    "purpose": "Attiva o disattiva la visualizzazione sul display: se False, cancella i testi; se True, ripristina i dati di prezzo e colori se presenti.",
+    "input_shape": "state: bool - stato desiderato del display",
+    "output_shape": "None; modifica la variabile globale display_enabled.",
+    "gotcha": "Dipende da variabili globali preesistenti (display_enabled, last_price, last_high, last_low, price, previous_price_value, factor) e da matrixportal già inizializzato; non verifica la disponibilità di tali risorse.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:20:31.534168+00:00"
+}

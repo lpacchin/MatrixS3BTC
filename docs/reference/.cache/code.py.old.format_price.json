@@ -1,0 +1,11 @@
+{
+  "body_hash": "4c2e881d008d09e1",
+  "llm": {
+    "purpose": "Formatta un prezzo come intero con separatore di migliaia (apostrofo) e simbolo $ finale",
+    "input_shape": "value: numero o stringa convertibile a int (es. 1234, \"1234\")",
+    "output_shape": "Restituisce una stringa formattata (es. \"1'234 $\"). Solleva ValueError se value non è convertibile a int.",
+    "gotcha": "La conversione a int tronca i decimali senza arrotondamento. Se value è non convertibile, solleva ValueError.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:21:40.347107+00:00"
+}
